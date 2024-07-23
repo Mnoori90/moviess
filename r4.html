@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moviat - Now Showing</title>
+    <link rel="stylesheet" href="r.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <h1>Now showing on Moviat</h1>
+            <a href="index.html"> <img src="ph/arrow-left.png"></a>
+        </nav>
+        <div class="main-content">
+            <div class="movie">
+                <img src="ph/67603720-a4f1-4401-ae0b-bf1583dcfaa6.jfif" alt="Movie Poster">
+                <div class="movie-info">
+                    <h2>Oblivion</h2>
+                    <p>Select Show Time:</p>
+                    <form class="show-times">
+                        <label>
+                            <input type="radio" name="showtime" value="monday-3pm">
+                            Monday - 3:00 PM
+                        </label><br>
+                        <label>
+                            <input type="radio" name="showtime" value="tuesday-4-30pm">
+                            Tuesday - 4:30 PM
+                        </label><br>
+                        <label>
+                            <input type="radio" name="showtime" value="tuesday-4-30pm">
+                            Tuesday - 4:30 PM
+                        </label><br>
+                   
+                    </form>
+                    <div class="ticket-section">
+                        <button class="counter-btn" data-action="decrement">-</button>
+                        <span class="ticket-count">0</span>
+                        <button class="counter-btn" data-action="increment">+</button>
+                        <button class="buy-ticket-btn">Buy Ticket</button>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+    <script src="r.js"></script>
+ 
+</body>
+</html>
